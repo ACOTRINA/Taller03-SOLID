@@ -1,6 +1,6 @@
 package seccionB;
 
-public class Pago {
+public class Pago implements IPago{
     //atributos aqui
     
     public void realizarCobro (double monto) {
