@@ -2,10 +2,11 @@ package seccionB;
 
 public class Pago implements IPago{
     //atributos aqui
-    Factura fact;
+    private Factura fact;
      
     public void realizarCobro (double monto) {
         //cargar el monto de compra al medio de pago
     }
 
 }
+ 
