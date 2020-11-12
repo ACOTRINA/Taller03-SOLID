@@ -1,6 +1,6 @@
 package seccionB;
 
-public class PagoPayPal extends Pago{
+public class PagoPayPal implements IPago{
     private boolean loggedIn; //conexion a cuenta PayPal
     @Override
     public void realizarCobro(double monto) {

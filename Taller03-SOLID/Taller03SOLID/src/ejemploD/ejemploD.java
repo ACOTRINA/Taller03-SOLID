@@ -16,6 +16,13 @@ public class ejemploD {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Supervisor sup = new Supervisor();
+        sup.setWorker(new Secretario());
+        sup.gestionar();
+        sup.setWorker(new Cajero());
+        sup.gestionar();
+        sup.setWorker(new Programador());
+        sup.gestionar(); 
     }
     
 }

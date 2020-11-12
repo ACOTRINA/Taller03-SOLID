@@ -1,11 +1,9 @@
 package seccionB;
 
 public class Compra {
-    private Pago pago;
+    private IPago pago;
 
-    private PagoPayPal pagoPayPal;
-
-    public Compra(Pago pago) {
+    public Compra(IPago pago) {
             //inicializaciones
     }    
 	
