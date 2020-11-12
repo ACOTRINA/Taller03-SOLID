@@ -5,30 +5,31 @@
  */
 package ejemploS;
 
-import javafx.scene.shape.Polygon;
+
+
 
 /**
  *
  * @author Intel
  */
-public class Square extends Polygon {
+public class Cuadrado{
  
-    int side;
+    int lado;
  
-    public Square(int side){
-        this.side = side;
+    public Cuadrado(int lado){
+        this.lado = lado;
     }
  
-    public int getSide(){
-        return this.side;
+    public int getLado(){
+        return this.lado;
     }
  
-    public void setSide(int side){
-        this.side = side;
+    public void setLado(int lado){
+        this.lado = lado;
     }
  
     public double getArea(){
-        return Math.pow(side,2);
+        return Math.pow(lado,2);
     }
  
 }

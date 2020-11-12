@@ -4,29 +4,28 @@
  * and open the template in the editor.
  */
 package ejemploS;
-
 /**
  *
  * @author Intel
  */
-public class Circle{
+public class Circulo{
  
-    int radius;
+    int radio;
  
-    public Circle(int radius){
-        this.radius = radius;
+    public Circulo(int radius){
+        this.radio = radius;
     }
  
-    public int getRadius(){
-        return this.radius;
+    public int getRadio(){
+        return this.radio;
     }
  
-    public void setRadius(int radius){
-        this.radius = radius;
+    public void setRadio(int radio){
+        this.radio = radio;
     }
  
     public double getArea(){
-        return Math.PI * Math.pow(radius,2);
+        return Math.PI * Math.pow(radio,2);
     }
  
 }

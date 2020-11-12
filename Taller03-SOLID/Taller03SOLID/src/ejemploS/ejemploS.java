@@ -16,11 +16,14 @@ public class ejemploS {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Circle circle = new Circle(5);
-        Square square = new Square(6);
-
-        CalculationService calculationService = new CalculationService();
-        calculationService.sumAreas(circle, square);
+        Calculo calculationService = new Calculo();
+        Imprimir imp = new Imprimir();
+ 
+        Circulo cir = new Circulo(5);
+        Cuadrado square = new Cuadrado(6);
+ 
+        double result = calculationService.sumAreas(cir, square);
+        imp.imprimir(result);
     }
     
 }
