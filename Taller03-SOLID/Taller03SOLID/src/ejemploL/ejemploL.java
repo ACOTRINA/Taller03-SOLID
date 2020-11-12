@@ -16,7 +16,17 @@ public class ejemploL {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+    	
+    	Coche[] arrayCoches= { new Renault(),
+        		new Chevrolet(),
+        		new Skoda()
+        };
+    	imprimirNumAsientos(arrayCoches);
     }
-    
+    public static void imprimirNumAsientos(Coche[] arrayCoches) {
+    	for(Coche coche:arrayCoches) {
+    		System.out.println(coche.numAsientos());
+    	}
+    }
+   
 }
