@@ -10,11 +10,11 @@ package ejemploS;
  * @author lolac
  */
 /*Aplicando el principio de responsabilidad única para refactorizar el código creamos una 
-clase Imprimir en la que implementamos las funciones encargadas de la presentación del programa*/
+clase Impresion en la que implementamos las funciones encargadas de la presentación del programa*/
 
-public class Imprimir {
+public class Impresion {
  
-    public void imprimir(double resultado){
+    public void impresion(double resultado){
         System.out.print("Resultado: " + resultado+"\n");
     }
  
