@@ -13,11 +13,11 @@ import javafx.scene.shape.Polygon;
  */
 public class CalculationService {
  
-    public double sumAreas(Circle circle, Square square){
-        return circle.getArea() + square.getArea();
+    public void sumAreas(Circle circle, Square square){
+        System.out.print(circle.getArea() + square.getArea());
     }
  
-    public double diffAreas(Circle circle, Square square){
-        return circle.getArea() - square.getArea();
+    public void diffAreas(Circle circle, Square square){
+        System.out.print(circle.getArea() - square.getArea());
     }
 }
